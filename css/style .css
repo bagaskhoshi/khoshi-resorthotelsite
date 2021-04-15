@@ -29,6 +29,22 @@ h3 {
 p {
   margin: 10px 0;
 }
+
+/* padding */
+.py-1 {
+  padding: 10px 0;
+}
+.py-2 {
+  padding: 20px 0;
+}
+.py-3 {
+  padding: 30px 0;
+}
+
+.l-heading {
+  font-size: 30px;
+}
+
 .container {
   margin: auto;
   max-width: 1100px;
@@ -108,7 +124,12 @@ p {
 }
 
 .bg-green {
-  background-color: #fff;
+  background-color: rgb(242, 240, 247);
+  color: black;
+}
+
+.bg-blue {
+  background-color: #0e00a4;
   color: #fff;
 }
 
@@ -151,6 +172,53 @@ p {
 .mid {
   background-color: #1862e1;
   color: white;
+}
+
+/* */
+#about-info .info-right {
+  float: right;
+  width: 50%;
+  min-height: 100%;
+}
+
+#about-info .info-right img {
+  display: block;
+  width: 70%;
+  margin: auto;
+  border-radius: 50%;
+}
+
+#about-info .info-left {
+  float: left;
+  width: 50%;
+  min-height: 100%;
+}
+
+/* */
+#testimonials {
+  height: 600px;
+  background: linear-gradient(#106cf7b3, rgba(49, 49, 237, 0.893)),
+    url("../img/testibackground.jpg") no-repeat center center/cover;
+  padding-top: 40px;
+}
+
+#testimonials h2 {
+  color: white;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+#testimonials .testimonial {
+  padding: 20px;
+  margin-bottom: 40px;
+  opacity: 0.9;
+}
+
+#testimonials .testimonial img {
+  width: 100px;
+  float: left;
+  margin-right: 30px;
+  border-radius: 45%;
 }
 
 #footer {
