@@ -221,6 +221,38 @@ p {
   border-radius: 45%;
 }
 
+/*contact form*/
+#contact-form .form-group {
+  margin-bottom: 20px;
+}
+
+#contact-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+#contact-form input,
+#contact-form textarea {
+  width: 100%;
+  padding: 10px;
+}
+
+#contact-form textarea {
+  height: 150px;
+}
+
+#contact-form input:focus,
+#contact-form textarea:focus {
+  outline: none;
+  border-color: #106cf7b3;
+  color: #333;
+}
+
+.bg-mild {
+  background-color: rgb(28, 67, 184);
+  color: white;
+}
+
 #footer {
   background-color: #0a0356;
   color: #fff;
