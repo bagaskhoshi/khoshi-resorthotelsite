@@ -1,0 +1,68 @@
+#navbar .logo {
+  float: none;
+  text-align: center;
+}
+
+#navbar ul,
+#navbar ul li {
+  float: none;
+}
+
+#navbar ul li a {
+  padding: 5px;
+  border-bottom: #444 dotted 1px;
+}
+
+#infohome {
+  height: 550px;
+}
+
+#infohome .imginfo {
+  display: none;
+}
+
+#infohome .infodesc {
+  float: none;
+  width: 100%;
+}
+
+.box {
+  float: none;
+  width: 100%;
+}
+
+#about-info .info-right,
+#about-info .info-left {
+  float: none;
+  width: 100%;
+}
+
+#about-info .info-left p {
+  text-align: center;
+}
+
+#about-info .info-right {
+  margin-top: 20px;
+}
+
+#about-info .info-right img {
+  border-radius: 30%;
+}
+
+.l-heading {
+  text-align: center;
+}
+
+#contact-info .box {
+  border-bottom: #444 dotted 1px;
+}
+
+.media-color {
+  background-color: #1862e1;
+  color: white;
+}
+
+.media-color-rev {
+  background-color: white;
+  color: #333;
+}
